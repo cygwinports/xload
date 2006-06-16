@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin libX11_6 libXaw8
+sdesc: "Xorg system load display"
+ldesc: "Xorg system load display"
