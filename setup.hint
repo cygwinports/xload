@@ -1,4 +1,4 @@
 category: X11
-requires: cygwin libX11_6 libXaw8 libXmu6 libXt6
-sdesc: "Xorg system load display"
-ldesc: "Xorg system load display"
+requires: cygwin libX11_6 libXaw7 libXmu6 libXt6
+sdesc: "X.Org system load display"
+ldesc: "X.Org system load display"
