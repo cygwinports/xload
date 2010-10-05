@@ -1,0 +1,10 @@
+--- origsrc/xload-1.1.0/get_load.c	2009-10-16 16:39:40.000000000 -0500
++++ src/xload-1.1.0/get_load.c	2010-10-04 21:40:51.792322200 -0500
+@@ -52,6 +52,7 @@ from the X Consortium.
+ #include "xload.h"
+ 
+ #if defined(__CYGWIN__)
++#define WIN32_LEAN_AND_MEAN
+ #include <windows.h>
+ typedef struct {
+   DWORD stat;
