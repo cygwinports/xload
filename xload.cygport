@@ -1,9 +1,11 @@
 inherit xorg
 
 NAME="xload"
-VERSION=1.1.1
+VERSION=1.1.2
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="X system load display"
 DESCRIPTION="The xload program displays a periodically updating histogram of
 the system load average."
+
+PATCH_URI="1.1.2-cygwin.patch"
